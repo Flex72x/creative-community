@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Aegean1;
+  src: url(../fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Light.otf);
+}
+
+* {
+	margin: 0;
+	font-family: "Gilroy";
+}
+
+body {
+	background: #f6f6f6;
+
+}
+
+.fw-gbold {
+	font-family: "Gilroy-bold";
+}
+
+.block1 {
+	background: url(https://images-ext-2.discordapp.net/external/c1_sZWR9w_o4VRhT7G2704y2tmY1Rs7KbnNk0epnbKc/https/i.imgur.com/55iKWTah.jpg?width=1014&height=676) no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.btn-orange {
+	background: #ff8e2b;
+	color: white;
+}
+
+.btn-orange:hover {
+	background: #EA8328;
+	color: white;
+}
